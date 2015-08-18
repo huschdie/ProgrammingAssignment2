@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
         setsolve <- function(solve) m <<- solve
         getsolve <- function() m
         
-        # now returns list with the 4 functions to communicate the cache
+        # now returns list with the 4 functions to communicate with the cache
         list(set = set, get = get,
              setsolve = setsolve,
              getsolve = getsolve)
